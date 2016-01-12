@@ -1,0 +1,16 @@
+package Backend;
+
+import java.util.ArrayList;
+
+public class Calculate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public Calculate(ArrayList <Double> grades){
+		
+	}
+
+}

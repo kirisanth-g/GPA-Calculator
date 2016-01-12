@@ -1,0 +1,15 @@
+package Backend;
+
+public class UTSC implements Lookup {
+
+	@Override
+	public double getGP(Integer grade) {
+		if (grade >= 0 && grade <= 49){
+			return 0.0;
+		}else if(grade >= 50 && grade <= 52){
+			return 0.7;
+		}
+		return 0;
+	}
+
+}

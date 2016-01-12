@@ -1,0 +1,29 @@
+package Backend;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Calculate {
+	
+	private int school_id;
+	private ArrayList<Lookup> lookup = new ArrayList<>(Arrays.asList(new UTSC()));
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public Calculate(int school_id){
+		this.school_id = school_id;
+	}
+	
+	public double getGPA(ArrayList <ArrayList <Integer>> grades){
+		double total = 0, sum = 0;
+		
+		for(ArrayList <Integer> grade: grades){
+			total = grade.get(1) + 
+		}
+		return total;
+	}
+
+}

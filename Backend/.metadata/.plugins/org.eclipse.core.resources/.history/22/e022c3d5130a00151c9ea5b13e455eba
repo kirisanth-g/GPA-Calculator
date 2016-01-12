@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package Backend;
+
+/**
+ * @author Kirisanth
+ *
+ */
+public interface Lookup {
+	
+	public double getGP(Integer grade);
+
+}

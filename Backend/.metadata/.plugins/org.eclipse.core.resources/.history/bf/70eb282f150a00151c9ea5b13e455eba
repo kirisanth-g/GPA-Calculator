@@ -1,0 +1,35 @@
+package Backend;
+
+public class UTSC extends Lookup {
+
+	@Override
+	public double getGP(Integer grade) {
+		if (grade >= 0 && grade <= 49){
+			return 0.0;
+		}else if(grade >= 50 && grade <= 52){
+			return 0.7;
+		}else if(grade >= 53 && grade <= 56){
+			return 1.0;
+		}else if(grade >= 57 && grade <= 59){
+			return 1.3;
+		}else if(grade >= 60 && grade <= 62){
+			return 1.7;
+		}else if(grade >= 63 && grade <= 66){
+			return 2.0;
+		}else if(grade >= 67 && grade <= 69){
+			return 2.3;
+		}else if(grade >= 70 && grade <= 72){
+			return 2.7;
+		}else if(grade >= 73 && grade <= 76){
+			return 3.0;
+		}else if(grade >= 77 && grade <= 79){
+			return 3.3;
+		}else if(grade >= 80 && grade <= 84){
+			return 3.7;
+		}else if(grade >= 85 && grade <= 100){
+			return 4.0;
+		}
+		return -1;
+	}
+
+}

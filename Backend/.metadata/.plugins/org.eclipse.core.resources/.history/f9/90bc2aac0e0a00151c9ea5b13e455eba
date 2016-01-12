@@ -1,0 +1,11 @@
+package Backend;
+
+public class UTSC implements Lookup {
+
+	@Override
+	public double getGP(Integer grade) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

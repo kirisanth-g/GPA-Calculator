@@ -1,0 +1,44 @@
+package Backend;
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Calculate {
+	
+	private int school_id;
+	private ArrayList<? extends Lookup> lookup = new ArrayList<>(Arrays.asList(new UTSC()));
+
+	public static void main(String[] args) {
+		Calculate cal = new Calculate(0);
+		ArrayList<Double> m1 = new ArrayList<>(Arrays.asList(Double.valueOf(93), Double.valueOf(0.5)));
+		ArrayList<Double> m2 = new ArrayList<>(Arrays.asList(Double.valueOf(74), Double.valueOf(0.5)));
+		ArrayList<Double> m3 = new ArrayList<>(Arrays.asList(Double.valueOf(57), Double.valueOf(0.5)));
+		ArrayList<ArrayList<Double>> ms = new ArrayList<>(Arrays.asList(m1, m2, m3));
+		double mark = cal.getGPA(ms);
+		System.out.println(mark);
+	}
+	
+	public Calculate(int school_id){
+		this.school_id = school_id;
+	}
+	
+	public double getGPA(ArrayList <ArrayList <Double>> grades){
+		double total = 0, sum = 0;
+		
+		for(ArrayList <Double> grade: grades){
+			total += grade.get(1) * lookup.get(school_id).getGP(grade.get(0));
+			sum += grade.get(1);
+		}
+		total = round(total/sum, 2);
+		return total;
+	}
+	
+	public static double round(double value, int places) {
+	    BigDecimal bd = new BigDecimal(value);
+	    bd = bd.setScale(places, RoundingMode.HALF_UP);
+	    return bd.doubleValue();
+	}
+
+}

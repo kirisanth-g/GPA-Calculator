@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package Backend;
+
+/**
+ * @author Kirisanth
+ *
+ */
+public interface Lookup {
+
+}
