@@ -2277,7 +2277,7 @@
   <commands xmi:id="_prQuoAoXEeWlPOUoqzqslg" elementId="org.eclipse.cdt.make.ui.edit.text.makefile.uncomment" commandName="Uncomment" description="Uncomment the selected # style comment lines" category="_prHksAoXEeWlPOUoqzqslg"/>
   <commands xmi:id="_prQuoQoXEeWlPOUoqzqslg" elementId="org.eclipse.wst.sse.ui.remove.block.comment" commandName="Remove Block Comment" description="Remove Block Comment" category="_goiZogoGEeWB4KK2y3xJLw"/>
   <commands xmi:id="_prQuogoXEeWlPOUoqzqslg" elementId="org.eclipse.cdt.debug.ui.command.reverseToggle" commandName="Reverse Toggle" description="Toggle Reverse Debugging" category="_prHksgoXEeWlPOUoqzqslg"/>
-  <commands xmi:id="_prQuowoXEeWlPOUoqzqslg" elementId="org.eclipse.cdt.ui.refactor.hide.method" commandName="Hide Memeber Function..." category="_prEhZAoXEeWlPOUoqzqslg"/>
+  <commands xmi:id="_prQuowoXEeWlPOUoqzqslg" elementId="org.eclipse.cdt.ui.refactor.hide.method" commandName="Hide Member Function..." category="_prEhZAoXEeWlPOUoqzqslg"/>
   <commands xmi:id="_prQupAoXEeWlPOUoqzqslg" elementId="org.eclipse.cdt.make.ui.edit.text.makefile.comment" commandName="Comment" description="Turn the selected lines into # style comments" category="_prHksAoXEeWlPOUoqzqslg"/>
   <commands xmi:id="_prQupQoXEeWlPOUoqzqslg" elementId="com.android.ide.eclipse.adt.launch.LaunchShortcut.debug" commandName="Debug Android Application" description="Debug Android Application" category="_golc_QoGEeWB4KK2y3xJLw"/>
   <commands xmi:id="_prQupgoXEeWlPOUoqzqslg" elementId="org.eclipse.cdt.ui.edit.text.c.goto.next.member" commandName="Go to Next Member" description="Move the caret to the next member of the translation unit" category="_prEhYQoXEeWlPOUoqzqslg"/>
